@@ -24,8 +24,8 @@ const AddTask = ({onAdd}) => {
     return (
         <form className="add-form" onSubmit={onSubmit}>
             <div className="form-control">
-                <label>Label</label>
-                <input type="text" placeholder="Add Item" 
+                <label> Item / Task</label>
+                <input type="text" placeholder="Add Item or Task" 
                 value={text} onChange={(e) => setText(e.target.value)} />
             </div>
             <div className="form-control">

@@ -13,7 +13,7 @@ const Header = ({title, onAdd, showAdd}) => {
 }
 
 Header.defaultProps = {
-    title: 'Grocery List'
+    title: 'Grocery List / Task Manager'
 }
 
 Header.propTypes = {
